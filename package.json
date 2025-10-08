@@ -4,9 +4,9 @@
   "description": "A WhatsApp Bot Created By 𝗔𝗦𝗶𝗠_𝗠𝗗",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ASiM_MD",
-    "stop": "pm2 stop ASiM_MD",
-    "restart": "pm2 restart ASiM_MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Arslan_MD",
+    "stop": "pm2 stop Arslan_MD",
+    "restart": "pm2 restart Arslan_MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "github:ArslanMDofficial/ArslanMD-Baileys",
