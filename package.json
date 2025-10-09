@@ -1,7 +1,7 @@
 {
-  "name": "ASiM_MD",
+  "name": "Arslan_MD",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By 𝗔𝗦𝗶𝗠_𝗠𝗗",
+  "description": "A WhatsApp Bot Created By ArslanMD Official",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name Arslan_MD",

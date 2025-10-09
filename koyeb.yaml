@@ -1,6 +1,6 @@
-name: Saleem_MD
+name: Arslan_MD
 services:
-  - name: saleem_md-service
+  - name: arslan_md-service
     type: web
     ports:
       - 5000
