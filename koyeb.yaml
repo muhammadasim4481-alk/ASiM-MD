@@ -1,6 +1,6 @@
-name: Arslan_MD
+name: ASiM_MD
 services:
-  - name: arslan_md-service
+  - name: asim_md-service
     type: web
     ports:
       - 5000

@@ -1,12 +1,12 @@
 {
-  "name": "Arslan_MD",
+  "name": "ASiM_MD",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By ArslanMD Official",
+  "description": "A WhatsApp Bot Created By Official ASiM_MD",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Arslan_MD",
-    "stop": "pm2 stop Arslan_MD",
-    "restart": "pm2 restart Arslan_MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ASiM_MD",
+    "stop": "pm2 stop ASiM_MD",
+    "restart": "pm2 restart ASiM_MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "github:ArslanMDofficial/ArslanMD-Baileys",
