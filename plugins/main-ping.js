@@ -1,7 +1,7 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
 
-// Array of different fancy text styles for 𝐒𝐚𝐥𝐞𝐞𝐦_𝐌𝐃
+// Array of different fancy text styles for ARSLAN-MD
 const botNameStyles = [
     "⒜⒭⒮⒧⒜⒩_⒨⒟",
     "🅰🆁🆂🅻🅰🅽_🅼🅳",
@@ -63,8 +63,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: "𝗔𝗦𝗶𝗠_𝗠𝗗",
+                    newsletterJid: '120363403399348632@newsletter',
+                    newsletterName: "ASiM_MD",
                     serverMessageId: 143
                 }
             }
@@ -90,7 +90,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*PINGING...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*🔥 𝗔𝗦𝗶𝗠_𝗠𝗗 SPEED : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*🔥 ASiM_MD SPEED : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)

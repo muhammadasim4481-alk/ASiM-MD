@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart Arslan-MD",  
+    desc: "Restart ASiM_MD,  
     category: "owner",  
     filename: __filename  
 },  

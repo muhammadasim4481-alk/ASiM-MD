@@ -94,7 +94,7 @@ cmd({
       'video': {
         'url': _0x5f2691
       },
-      'caption': "Powered By SaleemMD Official"
+      'caption': "Powered By Official ASiM_MD"
     }, {
       'quoted': _0x40711d
     });

@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `>  𝐒𝐚𝐥𝐞𝐞𝐦_𝐌𝐃 💜`
+      `>  ASiM_MD 💜`
     );
 
   } catch (error) {

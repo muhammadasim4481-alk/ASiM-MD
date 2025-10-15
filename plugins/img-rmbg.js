@@ -75,7 +75,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `Background removed\n\n> *𝐒𝐚𝐥𝐞𝐞𝐦_𝐌𝐃*`
+      caption: `Background removed\n\n> *ASiM_MD*`
     });
 
   } catch (error) {

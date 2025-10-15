@@ -35,7 +35,7 @@ cmd({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> 𝐒𝐚𝐥𝐞𝐞𝐦_𝐌𝐃 🤍",
+            caption: "> ASiM_MD 🤍",
             mimetype: 'image/png'
         }, { quoted: message });
 

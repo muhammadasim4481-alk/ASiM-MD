@@ -22,13 +22,13 @@ cmd({
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *SALEEM*
+│ 👑  Owner » *ASiM_KHAN*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*
 │ ⚙️  Mode » *[public]*
 │ 🔣  Prefix » *[.]*
-│ 🏷️  creater » *SALEEM-MD Official*
+│ 🏷️  creater » *ASiM_MD Official*
 │ 📚  Commands » *332*
 ⟬★⟭─────────────────
 ╔═══◇◆◇════════════╗
@@ -298,7 +298,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/lcpy9f.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/tgj4s2.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -643,7 +643,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/lcpy9f.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/tgj4s2.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },

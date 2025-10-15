@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*ARSLAN-MD NPM SEARCH*
+*ASiM_MD NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}
