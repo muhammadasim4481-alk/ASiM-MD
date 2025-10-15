@@ -27,7 +27,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/𝗔𝗦𝗶𝗠_𝗠𝗗/𝗔𝗦𝗶𝗠_𝗠𝗗/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/Arslan-MD/Arslan_MD/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/𝗔𝗦𝗶𝗠_𝗠𝗗-MD/𝗔𝗦𝗶𝗠_𝗠𝗗';
+    const githubRepo = 'https://github.com/Arslan-MD/Arslan_MD';
 
     // Check update status
     let updateMessage = `✅ Your Arslan-MD bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your 𝗔𝗦𝗶𝗠_𝗠𝗗 bot is outdated!
+      updateMessage = `🚀 Your ASiM_MD bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,14 +66,14 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* 𝗔𝗦𝗶𝗠_𝗠𝗗\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* ASiM_MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝗔𝗦𝗶𝗠_𝗠𝗗](https://github.com/𝗔𝗦𝗶𝗠_𝗠𝗗)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [ASiM_MD](https://github.com/Arslan-MD)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'enterhttps://files.catbox.moe/lcpy9f.jpg' },
+      image: { url: 'https://files.catbox.moe/lcpy9f.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
@@ -81,7 +81,7 @@ Use *.update* to update.`;
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363403399348632@newsletter',
-          newsletterName: '𝗔𝗦𝗶𝗠_𝗠𝗗',
+          newsletterName: 'ASiM_MD',
           serverMessageId: 143
         }
       }

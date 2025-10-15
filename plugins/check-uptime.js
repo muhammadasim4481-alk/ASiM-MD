@@ -47,7 +47,7 @@ ${config.DESCRIPTION}`;
 ├──────────────────────┤
 │ • Time: ${uptime}
 │ • Started: ${startTime.toLocaleString()}
-│ • Version: 4.0.0
+│ • Version: 1.0.0
 └──────────────────────┘`;
 
         // Style 5: Modern Blocks
@@ -120,7 +120,7 @@ ${config.DESCRIPTION}`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363403399348632@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝗔𝗦𝗶𝗠_𝗠𝗗',
+                    newsletterName: config.OWNER_NAME || 'ASiM_MD',
                     serverMessageId: 143
                 }
             }

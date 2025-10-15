@@ -11,7 +11,8 @@ cmd({
   filename: __filename
 }, async (conn, mek, store, { isGroup, groupMetadata, reply, sender }) => {
   try {
-    if (!isGroup) return reply("❌ This command can only be used in groups!"
+    if (!isGroup) return reply("❌ This command can only be used in groups!");
+
     const participants = groupMetadata.participants.map(user => user.id);
     
     // Filter out the sender and bot number if needed

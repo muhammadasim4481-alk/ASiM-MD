@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for SALEEM-MD bot",
+    desc: "Get pairing code for ASiM_MD bot",
     category: "download",
-    use: ".pair 92302214XXXX",
+    use: ".pair 92319129XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -16,18 +16,18 @@ cmd({
 
         // Validate phone number format
         if (!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 15) {
-            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 92302214XXXX`");
+            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 92319129XXX`");
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://saleem-md-session-c2sw.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://arslan-md-web.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
 
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *𝗔𝗦𝗶𝗠_𝗠𝗗 PAIRING COMPLETED*";
+        const doneMessage = "> *SALEEM_MD PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);

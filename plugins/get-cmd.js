@@ -39,7 +39,7 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-Powered By *𝗔𝗦𝗶𝗠_𝗠𝗗* 💜`;
+Powered By *ASiM_MD* 💜`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
@@ -51,7 +51,7 @@ Powered By *𝗔𝗦𝗶𝗠_𝗠𝗗* 💜`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363403399348632@newsletter',
-                    newsletterName: '𝗔𝗦𝗶𝗠_𝗠𝗗',
+                    newsletterName: 'ASiM_MD',
                     serverMessageId: 143
                 }
             }

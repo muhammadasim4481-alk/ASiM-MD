@@ -14,7 +14,7 @@ async (conn, mek, m, { from }) => {
         const ownerName = config.OWNER_NAME;
 
         const vcard = 'BEGIN:VCARD\n' +
-                      'VERSION:3.0\n' +
+                      'VERSION:1.0\n' +
                       `FN:${ownerName}\n` +  
                       `TEL;type=CELL;type=VOICE;waid=${ownerNumber.replace('+', '')}:${ownerNumber}\n` + 
                       'END:VCARD';
